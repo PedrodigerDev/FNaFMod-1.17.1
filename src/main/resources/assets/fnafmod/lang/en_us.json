@@ -4,5 +4,6 @@
   "item.fnafmod.raw_titanium": "Raw Titanium",
 
   "item.fnafmod.titanium_block": "Titanium Block",
-  "item.fnafmod.ttianium_ore": "Titanium Ore"
+  "item.fnafmod.titanium_ore": "Titanium Ore",
+  "itemGroup.FNaFMod": "A FNaF Mod"
 }

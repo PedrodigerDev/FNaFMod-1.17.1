@@ -1,6 +1,7 @@
 package com.pedrodigergaming.fnafmod.block;
 
 import com.pedrodigergaming.fnafmod.FnafMod;
+import com.pedrodigergaming.fnafmod.item.ModCreativeModeTab;
 import com.pedrodigergaming.fnafmod.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
@@ -34,7 +35,7 @@ public class ModBlocks {
 
     private static <T extends Block> void registerBlockItem(String name, RegistryObject<T> block) {
         ModItems.ITEMS.register(name, () -> new BlockItem(block.get(),
-                new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+                new Item.Properties().tab(ModCreativeModeTab.FNaF_Mod)));
     }
 
     public static void register(IEventBus eventBus) {
