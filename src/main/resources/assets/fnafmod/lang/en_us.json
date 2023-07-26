@@ -9,5 +9,9 @@
 
   "block.fnafmod.titanium_block": "Titanium Block",
   "block.fnafmod.titanium_ore": "Titanium Ore",
-  "itemGroup.FNaFMod": "A FNaF Mod"
+  "itemGroup.FNaFMod": "A FNaF Mod",
+
+  "tooltip.fnafmod.blowtorch_shift": "Hold \u00A7eSHIFT\u00A7r for more Information!",
+  "tooltip.fnafmod.blowtorch": "Click a Block and see if you can blow torch it into a different Item!",
+  "tooltip.block.fnafmod.titanium_block": "A hardened metal Block, almost impossible to break!"
 }
