@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "fnafmod:titanium_ingot"
+    }
+  },
+  "result": {
+    "item": "fnafmod:titanium_block"
+  }
+}
