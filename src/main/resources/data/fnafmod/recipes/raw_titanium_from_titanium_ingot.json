@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "ingredients": [
+    {
+      "item": "fnafmod:raw_titanium"
+    }
+  ],
+  "result": {
+    "item": "fnafmod:titanium_ingot",
+    "count": 1
+  }
+}

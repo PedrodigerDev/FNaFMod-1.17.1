@@ -29,7 +29,7 @@ public class ModItems {
                     .food(new FoodProperties.Builder().nutrition(2).saturationMod(0.2f).build())));
 
     public static final RegistryObject<Item> SMART_BLOW_TORCH = ITEMS.register("smart_blow_torch",
-            () -> new SmartBlowtorchItem(new Item.Properties().tab(ModCreativeModeTab.FNaF_Mod)));
+            () -> new SmartBlowtorchItem(new Item.Properties().tab(ModCreativeModeTab.FNaF_Mod).durability(64)));
 
     public static final RegistryObject<Item> COAL_COKE = ITEMS.register("coal_coke",
             () -> new CoalCokeItem(new Item.Properties().tab(ModCreativeModeTab.FNaF_Mod)));

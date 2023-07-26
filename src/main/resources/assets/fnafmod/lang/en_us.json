@@ -6,10 +6,16 @@
   "item.fnafmod.smart_blow_torch": "Smart Blow Torch",
   "item.fnafmod.coal_coke": "Coal Coke",
 
-
   "block.fnafmod.titanium_block": "Titanium Block",
   "block.fnafmod.titanium_ore": "Titanium Ore",
-  "itemGroup.FNaFMod": "A FNaF Mod",
+
+  "block.fnafmod.titanium_stairs": "Titanium Stairs",
+  "block.fnafmod.titanium_fence": "Titanium Fence",
+  "block.fnafmod.titanium_fence_gate": "Titanium Fence Gate",
+  "block.fnafmod.titanium_slab": "Titanium Slab",
+  "block.fnafmod.titanium_wall": "Titanium Wall",
+
+  "itemGroup.fnafmod": "Fnaf Mod",
 
   "tooltip.fnafmod.blowtorch_shift": "Hold \u00A7eSHIFT\u00A7r for more Information!",
   "tooltip.fnafmod.blowtorch": "Click a Block and see if you can blow torch it into a different Item!",

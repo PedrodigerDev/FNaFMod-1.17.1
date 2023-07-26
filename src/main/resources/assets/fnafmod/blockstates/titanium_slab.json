@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "fnafmod:block/titanium_slab"
+    },
+    "type=double": {
+      "model": "fnafmod:block/titanium_block"
+    },
+    "type=top": {
+      "model": "fnafmod:block/titanium_slab_top"
+    }
+  }
+}
