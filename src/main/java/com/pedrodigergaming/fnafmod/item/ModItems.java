@@ -1,6 +1,7 @@
 package com.pedrodigergaming.fnafmod.item;
 
 import com.pedrodigergaming.fnafmod.FnafMod;
+import com.pedrodigergaming.fnafmod.item.custom.CoalCokeItem;
 import com.pedrodigergaming.fnafmod.item.custom.SmartBlowtorchItem;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.CreativeModeTab;
@@ -29,6 +30,9 @@ public class ModItems {
 
     public static final RegistryObject<Item> SMART_BLOW_TORCH = ITEMS.register("smart_blow_torch",
             () -> new SmartBlowtorchItem(new Item.Properties().tab(ModCreativeModeTab.FNaF_Mod)));
+
+    public static final RegistryObject<Item> COAL_COKE = ITEMS.register("coal_coke",
+            () -> new CoalCokeItem(new Item.Properties().tab(ModCreativeModeTab.FNaF_Mod)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
