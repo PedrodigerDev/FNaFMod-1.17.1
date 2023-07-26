@@ -3,7 +3,7 @@
   "item.fnafmod.titanium_nugget": "Titanium Nugget",
   "item.fnafmod.raw_titanium": "Raw Titanium",
 
-  "item.fnafmod.titanium_block": "Titanium Block",
-  "item.fnafmod.titanium_ore": "Titanium Ore",
+  "block.fnafmod.titanium_block": "Titanium Block",
+  "block.fnafmod.titanium_ore": "Titanium Ore",
   "itemGroup.FNaFMod": "A FNaF Mod"
 }
