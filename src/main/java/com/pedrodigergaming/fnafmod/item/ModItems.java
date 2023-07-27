@@ -1,6 +1,7 @@
 package com.pedrodigergaming.fnafmod.item;
 
 import com.pedrodigergaming.fnafmod.FnafMod;
+import com.pedrodigergaming.fnafmod.block.ModBlocks;
 import com.pedrodigergaming.fnafmod.item.custom.CoalCokeItem;
 import com.pedrodigergaming.fnafmod.item.custom.SmartBlowtorchItem;
 import net.minecraft.world.entity.EquipmentSlot;
@@ -61,6 +62,14 @@ public class ModItems {
                     new Item.Properties().tab(ModCreativeModeTab.FNaF_Mod)));
     public static final RegistryObject<Item> TITANIUM_HELMET = ITEMS.register("titanium_helmet",
             () -> new ArmorItem(ModArmorMaterial.TITANIUM, EquipmentSlot.HEAD,
+                    new Item.Properties().tab(ModCreativeModeTab.FNaF_Mod)));
+
+    public static final RegistryObject<Item> TITANIUM_HORSE_ARMOR = ITEMS.register("titanium_horse_armor",
+            () -> new HorseArmorItem(16, "titanium",
+                    new Item.Properties().tab(ModCreativeModeTab.FNaF_Mod)));
+
+    public static final RegistryObject<Item> TOMATO_SEEDS = ITEMS.register("tomato_seeds",
+            () -> new ItemNameBlockItem(ModBlocks.TOMATO_PLANT.get(),
                     new Item.Properties().tab(ModCreativeModeTab.FNaF_Mod)));
 
 

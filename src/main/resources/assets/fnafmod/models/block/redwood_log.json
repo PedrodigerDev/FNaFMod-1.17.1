@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "fnafmod:block/redwood_log_top",
+    "side": "fnafmod:block/redwood_log"
+  }
+}
