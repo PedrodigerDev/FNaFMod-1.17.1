@@ -42,9 +42,6 @@ public class ModBlocks {
     public static final RegistryObject<Block> TITANIUM_FENCE = registerBlock("titanium_fence",
             () -> new FenceBlock(BlockBehaviour.Properties.of(Material.METAL).strength(5f).requiresCorrectToolForDrops()));
 
-    public static final RegistryObject<Block> TITANIUM_WALL = registerBlock("titanium_wall",
-            () -> new WallBlock(BlockBehaviour.Properties.of(Material.METAL).strength(5f).requiresCorrectToolForDrops()));
-
     public static final RegistryObject<Block> TITANIUM_FENCE_GATE = registerBlock("titanium_fence_gate",
             () -> new FenceGateBlock(BlockBehaviour.Properties.of(Material.METAL).strength(5f).requiresCorrectToolForDrops()));
 
