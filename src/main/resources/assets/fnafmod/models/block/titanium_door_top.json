@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_top",
+  "textures": {
+    "top": "fnafmod:block/titanium_door_top",
+    "bottom": "fnafmod:block/titanium_door_bottom"
+  }
+}

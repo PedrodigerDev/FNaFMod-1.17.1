@@ -15,6 +15,11 @@
   "block.fnafmod.titanium_slab": "Titanium Slab",
   "block.fnafmod.titanium_wall": "Titanium Wall",
 
+  "block.fnafmod.titanium_button": "Titanium Button",
+  "block.fnafmod.titanium_pressure_plate": "Titanium Pressure Plate",
+  "block.fnafmod.titanium_door": "Titanium Door",
+  "block.fnafmod.titanium_trapdoor": "Titanium Trapdoor",
+
   "itemGroup.fnafmod": "Fnaf Mod",
 
   "tooltip.fnafmod.blowtorch_shift": "Hold \u00A7eSHIFT\u00A7r for more Information!",

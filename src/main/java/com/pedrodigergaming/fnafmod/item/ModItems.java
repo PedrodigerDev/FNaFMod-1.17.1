@@ -4,8 +4,7 @@ import com.pedrodigergaming.fnafmod.FnafMod;
 import com.pedrodigergaming.fnafmod.item.custom.CoalCokeItem;
 import com.pedrodigergaming.fnafmod.item.custom.SmartBlowtorchItem;
 import net.minecraft.world.food.FoodProperties;
-import net.minecraft.world.item.CreativeModeTab;
-import net.minecraft.world.item.Item;
+import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fmllegacy.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
@@ -33,6 +32,22 @@ public class ModItems {
 
     public static final RegistryObject<Item> COAL_COKE = ITEMS.register("coal_coke",
             () -> new CoalCokeItem(new Item.Properties().tab(ModCreativeModeTab.FNaF_Mod)));
+
+    public static final RegistryObject<Item> TITANIUM_SWORD = ITEMS.register("titanium_sword",
+            () -> new SwordItem(ModTiers.TITANIUM, 2, 3f,
+                    new Item.Properties().tab(ModCreativeModeTab.FNaF_Mod)));
+    public static final RegistryObject<Item> TITANIUM_PICKAXE = ITEMS.register("titanium_pickaxe",
+            () -> new PickaxeItem(ModTiers.TITANIUM, 0, 1f,
+                    new Item.Properties().tab(ModCreativeModeTab.FNaF_Mod)));
+    public static final RegistryObject<Item> TITANIUM_SHOVEL = ITEMS.register("titanium_shovel",
+            () -> new ShovelItem(ModTiers.TITANIUM, 2, 3f,
+                    new Item.Properties().tab(ModCreativeModeTab.FNaF_Mod)));
+    public static final RegistryObject<Item> TITANIUM_AXE = ITEMS.register("titanium_axe",
+            () -> new AxeItem(ModTiers.TITANIUM, 4, -2f,
+                    new Item.Properties().tab(ModCreativeModeTab.FNaF_Mod)));
+    public static final RegistryObject<Item> TITANIUM_HOE = ITEMS.register("titanium_hoe",
+            () -> new HoeItem(ModTiers.TITANIUM, 2, 3f,
+                    new Item.Properties().tab(ModCreativeModeTab.FNaF_Mod)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

@@ -17,7 +17,7 @@ apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 
 
-version = '1.17.1-0.0.1'
+version = '1.17.1-0.0.2'
 group = 'com.pedrodigergaming.fnafmod' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'fnafmod'
 
