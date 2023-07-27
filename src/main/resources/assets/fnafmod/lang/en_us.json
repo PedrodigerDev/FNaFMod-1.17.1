@@ -6,6 +6,17 @@
   "item.fnafmod.smart_blow_torch": "Smart Blow Torch",
   "item.fnafmod.coal_coke": "Coal Coke",
 
+  "item.fnafmod.titanium_sword": "Titanium Sword",
+  "item.fnafmod.titanium_shovel": "Titanium Shovel",
+  "item.fnafmod.titanium_axe": "Titanium Axe",
+  "item.fnafmod.titanium_pickaxe": "Titanium Pickaxe",
+  "item.fnafmod.titanium_hoe": "Titanium Hoe",
+
+  "item.fnafmod.titanium_helmet": "Titanium Helmet",
+  "item.fnafmod.titanium_chestplate": "Titanium Chestplate",
+  "item.fnafmod.titanium_leggings": "Titanium Leggings",
+  "item.fnafmod.titanium_boots": "Titanium Boots",
+
   "block.fnafmod.titanium_block": "Titanium Block",
   "block.fnafmod.titanium_ore": "Titanium Ore",
 
@@ -13,14 +24,13 @@
   "block.fnafmod.titanium_fence": "Titanium Fence",
   "block.fnafmod.titanium_fence_gate": "Titanium Fence Gate",
   "block.fnafmod.titanium_slab": "Titanium Slab",
-  "block.fnafmod.titanium_wall": "Titanium Wall",
 
   "block.fnafmod.titanium_button": "Titanium Button",
   "block.fnafmod.titanium_pressure_plate": "Titanium Pressure Plate",
   "block.fnafmod.titanium_door": "Titanium Door",
   "block.fnafmod.titanium_trapdoor": "Titanium Trapdoor",
 
-  "itemGroup.fnafmod": "Fnaf Mod",
+  "itemGroup.tutorial_mod_tab": "Tutorial Tab",
 
   "tooltip.fnafmod.blowtorch_shift": "Hold \u00A7eSHIFT\u00A7r for more Information!",
   "tooltip.fnafmod.blowtorch": "Click a Block and see if you can blow torch it into a different Item!",
